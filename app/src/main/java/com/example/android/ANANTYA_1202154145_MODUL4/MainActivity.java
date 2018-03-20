@@ -13,13 +13,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-
+    //method untuk menginisiasikan ke instance berikutnya
     public void searchImage(View view) {
         //digunakan untuk menginisialisasikan ke activity berikutnya
         Intent intent = new Intent(this, ImageSearch.class);
         startActivity(intent);
     }
 
+    //method untuk menginisiasikan ke instance berikutnya
     public void listName(View view) {
         //digunakan untuk menginisialisasikan ke activity berikutnya
         Intent intent = new Intent(this, ListName.class);
