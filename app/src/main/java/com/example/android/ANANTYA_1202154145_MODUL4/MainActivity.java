@@ -15,11 +15,13 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void searchImage(View view) {
+        //digunakan untuk menginisialisasikan ke activity berikutnya
         Intent intent = new Intent(this, ImageSearch.class);
         startActivity(intent);
     }
 
     public void listName(View view) {
+        //digunakan untuk menginisialisasikan ke activity berikutnya
         Intent intent = new Intent(this, ListName.class);
         startActivity(intent);
     }

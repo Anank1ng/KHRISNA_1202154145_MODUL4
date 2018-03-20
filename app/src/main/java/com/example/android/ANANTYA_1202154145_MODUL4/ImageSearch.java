@@ -14,15 +14,16 @@ import java.io.InputStream;
 
 public class ImageSearch extends AppCompatActivity {
 
-    ImageView ivImage;
+    ImageView ivImage; //membuat objek
     EditText etImage;
     private String imageUrl;
 
+    // sebelumnya masukkan <uses-permission ke manifest untuk dapat mengakses internet
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_image_search);
-        ivImage = (ImageView)findViewById(R.id.ivImage);
+        ivImage = (ImageView)findViewById(R.id.ivImage); //inisialisasi data berdasarkan layoutnya
         etImage = (EditText)findViewById(R.id.etImage);
     }
 
